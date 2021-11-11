@@ -11,7 +11,7 @@ Executible in `/bin`
 ##Classes  
 Classes are :  
 **Woodplank** - **Handsaw** - **Hammer** - **Nail**  
-### Wood Plank  
+### Class : WoodPlank  
 Properties : Length, Width, Thickness, Type
 ``` 
 float Length; // Tool
