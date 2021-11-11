@@ -1,4 +1,4 @@
-### ManagmentGame - AP Project - 4 Phases
+# ManagmentGame - AP Project - 4 Phases
 
 - [x] Phase 1 - Classes
 - [ ] Phase 2
@@ -11,7 +11,7 @@ Executible in `/bin`
 ##Classes  
 Classes are :  
 **Woodplank** - **Handsaw** - **Hammer** - **Nail**  
-# Wood Plank  
+### Wood Plank  
 Properties : Length, Width, Thickness, Type
 ``` 
 float Length; // Tool
