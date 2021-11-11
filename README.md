@@ -17,7 +17,7 @@ Properties : Length, Width, Thickness, Type
 float Length; // Tool
 float Width; // Arz
 float Thickness; // Ertefa
-typeWood Type; //enum typeWood
+typeWood Type; // Enum typeWood -> { Oak , Maple , Walnut , Teak , Ash }
 ```  
 Has a constructor than inputs length, width, thickness and wood :  
 in `/include/woodplank.hpp` -> 
