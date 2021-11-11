@@ -6,6 +6,6 @@
 - [ ] Phase 4
 
 #Phase 1
-Classes are implemented - code in `/src` and `/include`
+Classes are implemented - code in `/src` and `/include`  
 Executible in `/bin`
 
