@@ -19,8 +19,8 @@ float Width; // Arz
 float Thickness; // Ertefa
 typeWood Type; //enum typeWood
 ```  
-Has a constructor than inputs length, width, thickness and wood : 
-in `/include/woodplank.hpp` -> `WoodPlank(float l , float w , float th , typeWood t);`
+Has a constructor than inputs length, width, thickness and wood :  
+in `/include/woodplank.hpp` -> `WoodPlank(float l , float w , float th , typeWood t);`  
 in `/src/woodplank.cpp` ->  
 ```
 WoodPlank::WoodPlank(float l , float w , float th , typeWood t )
