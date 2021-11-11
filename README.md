@@ -35,3 +35,4 @@ WoodPlank::WoodPlank(float l , float w , float th , typeWood t )
 }
 ```  
 Has setters and getters for each variable.  
+--**To Be Completed**--
