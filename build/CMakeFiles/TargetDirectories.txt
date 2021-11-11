@@ -1,0 +1,3 @@
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build/CMakeFiles/edit_cache.dir
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build/CMakeFiles/app.dir

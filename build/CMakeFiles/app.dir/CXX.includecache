@@ -1,0 +1,70 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/app.hpp
+
+../include/hammer.hpp
+
+../include/handsaw.hpp
+
+../include/nail.hpp
+
+../include/woodplank.hpp
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/app.cpp
+iostream
+-
+app.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/app.hpp
+woodplank.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/woodplank.hpp
+handsaw.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/handsaw.hpp
+hammer.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/hammer.hpp
+nail.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/nail.hpp
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/hammer.cpp
+iostream
+-
+hammer.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/hammer.hpp
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/handsaw.cpp
+iostream
+-
+handsaw.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/handsaw.hpp
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/main.cpp
+iostream
+-
+woodplank.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/woodplank.hpp
+handsaw.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/handsaw.hpp
+hammer.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/hammer.hpp
+nail.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/nail.hpp
+app.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/app.hpp
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/nail.cpp
+iostream
+-
+nail.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/nail.hpp
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/woodplank.cpp
+iostream
+-
+woodplank.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/woodplank.hpp
+
