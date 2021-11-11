@@ -8,7 +8,7 @@
 ## Phase 1  
 Classes are implemented - code in `/src` and `/include`  
 Executible in `/bin`  
-## Classes  
+### Classes  
 Classes are :  
 **Woodplank** - **Handsaw** - **Hammer** - **Nail**  
 #### Class : WoodPlank  
