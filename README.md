@@ -19,7 +19,7 @@ float Width; // Arz
 float Thickness; // Ertefa
 typeWood Type; // Enum typeWood -> { Oak , Maple , Walnut , Teak , Ash }
 ```  
-Has a constructor than inputs length, width, thickness and wood :  
+Has a constructor that inputs length, width, thickness and wood :  
 in `/include/woodplank.hpp` -> 
 ```
 WoodPlank(float l , float w , float th , typeWood t);
@@ -35,4 +35,19 @@ WoodPlank::WoodPlank(float l , float w , float th , typeWood t )
 }
 ```  
 Has setters and getters for each variable.  
---**To Be Completed**--
+#### Class : Handsaw  
+Properties : Sharpness  
+```
+float Sharpness = 100.0;
+```  
+in `/include/handsaw.hpp` ->  
+```
+        Handsaw(float sharpness);
+```  
+in `/src/handsaw.cpp` ->  
+```
+Handsaw::Handsaw(float sharpness){
+    Sharpness = Sharpness;
+```  
+Has setters and getters for each variable.  
+--*Read Me Not Complete*--
