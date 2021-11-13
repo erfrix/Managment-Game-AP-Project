@@ -51,4 +51,4 @@ Sharpness = Sharpness;
 }
 ```  
 Has setters and getters for each variable.  
---*Read Me Not Complete*--
+--*Readme Not Complete*--
