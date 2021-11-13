@@ -42,12 +42,13 @@ float Sharpness = 100.0;
 ```  
 in `/include/handsaw.hpp` ->  
 ```
-        Handsaw(float sharpness);
+Handsaw(float sharpness);
 ```  
 in `/src/handsaw.cpp` ->  
 ```
 Handsaw::Handsaw(float sharpness){
-    Sharpness = Sharpness;
+Sharpness = Sharpness;
+}
 ```  
 Has setters and getters for each variable.  
 --*Read Me Not Complete*--
