@@ -46,8 +46,9 @@ Handsaw(float sharpness);
 ```  
 in `/src/handsaw.cpp` ->  
 ```
-Handsaw::Handsaw(float sharpness){
-Sharpness = Sharpness;
+Handsaw::Handsaw(float sharpness)
+{
+            Sharpness = Sharpness;
 }
 ```  
 Has setters and getters for each variable.  
