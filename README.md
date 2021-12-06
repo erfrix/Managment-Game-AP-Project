@@ -1,7 +1,7 @@
 # ManagmentGame - AP Project - 4 Phases
 
 - [x] Phase 1 - Classes
-- [x] Phase 2 - inheritance & Polymorphism
+- [x] Phase 2 - Inheritance & Polymorphism
 - [ ] Phase 3
 - [ ] Phase 4
 
