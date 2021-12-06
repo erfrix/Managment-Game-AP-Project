@@ -1,0 +1,108 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/app.hpp
+app.hpp
+../include/app.hpp
+
+../include/chair.hpp
+furniture.hpp
+../include/furniture.hpp
+
+../include/furniture.hpp
+iostream
+-
+
+../include/hammer.hpp
+tool.hpp
+../include/tool.hpp
+
+../include/handsaw.hpp
+tool.hpp
+../include/tool.hpp
+
+../include/nail.hpp
+
+../include/tool.hpp
+iostream
+-
+
+../include/woodplank.hpp
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/app.cpp
+iostream
+-
+app.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/app.hpp
+woodplank.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/woodplank.hpp
+handsaw.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/handsaw.hpp
+hammer.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/hammer.hpp
+nail.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/nail.hpp
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/chair.cpp
+chair.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/chair.hpp
+iostream
+-
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/furniture.cpp
+furniture.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/furniture.hpp
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/hammer.cpp
+iostream
+-
+hammer.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/hammer.hpp
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/handsaw.cpp
+iostream
+-
+handsaw.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/handsaw.hpp
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/main.cpp
+iostream
+-
+woodplank.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/woodplank.hpp
+tool.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/tool.hpp
+handsaw.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/handsaw.hpp
+hammer.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/hammer.hpp
+nail.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/nail.hpp
+app.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/app.hpp
+furniture.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/furniture.hpp
+chair.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/chair.hpp
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/nail.cpp
+iostream
+-
+nail.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/nail.hpp
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/tool.cpp
+tool.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/tool.hpp
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/woodplank.cpp
+iostream
+-
+woodplank.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/woodplank.hpp
+

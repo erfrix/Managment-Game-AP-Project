@@ -24,7 +24,7 @@
             else
                 std::cout << "Error - Can Not Accept The Length Value" << std::endl;
         }
-        float WoodPlank::getLength() const{
+        float WoodPlank::getLength(){
             return Length;
         }
         void WoodPlank::setWidth(float width){
@@ -33,7 +33,7 @@
             else
                 std::cout << "Error - Can Not Accept The Width Value" << std::endl;
         }
-        float WoodPlank::getWidth() const{
+        float WoodPlank::getWidth(){
             return Width;
         }
         
@@ -43,13 +43,13 @@
             else
                 std::cout << "Error - Can Not Accept The Thickness Value" << std::endl;
         }
-        float WoodPlank::getThickness() const{
+        float WoodPlank::getThickness(){
             return Thickness;
         }
 
         void WoodPlank::setType(typeWood type){
             Type = type;
         }
-        typeWood WoodPlank::getType() const{
+        typeWood WoodPlank::getType(){
             return Type;
         }

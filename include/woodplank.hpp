@@ -22,13 +22,13 @@ public:
 
         //Setters and Getters
         void setLength(float length);
-        float getLength() const;
+        float getLength();
         void setWidth(float width);
-        float getWidth() const;
+        float getWidth();
         void setThickness(float thickness);
-        float getThickness() const;
+        float getThickness();
         void setType(typeWood type);
-        typeWood getType() const;
+        typeWood getType();
 };
 
 #endif /* WOODPLANK_H */

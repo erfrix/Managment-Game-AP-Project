@@ -7,14 +7,19 @@
 #ifndef HANDSAW_H
 #define HANDSAW_H
 
-class Handsaw{
-private:
-        float Sharpness = 100.0;
-public:
-        //Constructor - Input : Sharpness
-        Handsaw(float sharpness);
-        //Setter and Getter for Sharpness
-        void setSharpness(float sharpness);
-        float getSharpness();
+#include "tool.hpp"
+
+class Handsaw : public Tool
+{
+	public:
+		Handsaw(float , string);
+        Handsaw(string);
+        
+		void setID(string);
+        string getID();
+        void setDurability(float);
+        float getDurability();
+
+        void use();
 };
 #endif /* HANDSAW_H */

@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - 
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/app.dir/all
+all: CMakeFiles/app-build2.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/app.dir/clean
+clean: CMakeFiles/app-build2.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/app.dir
+# Target rules for target CMakeFiles/app-build2.dir
 
 # All Build rule for target.
-CMakeFiles/app.dir/all:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/depend
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target app"
-.PHONY : CMakeFiles/app.dir/all
+CMakeFiles/app-build2.dir/all:
+	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/depend
+	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target app-build2"
+.PHONY : CMakeFiles/app-build2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build/CMakeFiles" 7
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/app.dir/all
+CMakeFiles/app-build2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build/CMakeFiles" 10
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/app-build2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build/CMakeFiles" 0
-.PHONY : CMakeFiles/app.dir/rule
+.PHONY : CMakeFiles/app-build2.dir/rule
 
 # Convenience name for target.
-app: CMakeFiles/app.dir/rule
+app-build2: CMakeFiles/app-build2.dir/rule
 
-.PHONY : app
+.PHONY : app-build2
 
 # clean rule for target.
-CMakeFiles/app.dir/clean:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/clean
-.PHONY : CMakeFiles/app.dir/clean
+CMakeFiles/app-build2.dir/clean:
+	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/clean
+.PHONY : CMakeFiles/app-build2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

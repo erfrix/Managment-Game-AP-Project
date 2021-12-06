@@ -7,18 +7,48 @@
 // Setter validates input data
 
 //Constructor - Input : Durability
-Hammer::Hammer(float durability){
-    Durablity = durability;
+Hammer::Hammer(float durability, string id){
+    if(durability >= 100)
+        this->durability = 100;
+    else
+        this->durability = durability;
+    this->ID = id;
+}
+Hammer::Hammer(string id){
+    this->durability = 100.0;
+    this->ID = id;
+}
+
+void Hammer::use(){
+    if(this->durability-10.0 <= 0)
+    {
+        this->durability = 0;
+        std::cout << "Hammer broke!" << std::endl;
+    }
+    else
+        this->durability -= 10.0;
 }
 
 //Setter and Getter for Durability
 void Hammer::setDurability(float durablity){
     if(durablity <= 100.0 && durablity > 0){
-        Durablity = durablity;
+        this->durability = durablity;
     }
     else
-        std::cout << "Error Creating The Hammer" << std::endl;
+        std::cout << "Error Setting Durability!" << std::endl;
 }
 float Hammer::getDurability(){
-    return Durablity;
+    return this->durability;
+}
+
+//Setter Getter for ID
+void Hammer::setID(string id)
+{
+    //ID is checked in another function
+    this->ID = id;
+}
+
+string Hammer::getID()
+{
+    return this->ID;
 }

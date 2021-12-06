@@ -6,14 +6,20 @@
 
 #ifndef HAMMER_H
 #define HAMMER_H
-class Hammer{
-private:
-        float Durablity = 100.0;
-public:
-        //Constructor - Input : Durability
-        Hammer(float durability);
-        //Setter and Getter for Durability
-        void setDurability(float durablity);
+
+#include "tool.hpp"
+
+class Hammer : public Tool
+{
+	public:
+		Hammer(float, string);
+        Hammer(string);
+
+		void setID(string);
+        string getID();
+        void setDurability(float);
         float getDurability();
+
+        void use();
 };
 #endif /*HAMMER_H*/
