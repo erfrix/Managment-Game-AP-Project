@@ -9,11 +9,15 @@
 //Constructor - Input : Sharpness
 
 Handsaw::Handsaw(float durability, string id){
-    if(durability >= 100)
-        this->durability = 100;
-    else
+    if(durability <= 100  && durability > 0)
+    {
         this->durability = durability;
-    this->ID = id;
+        this->ID = id;
+    }
+    else
+    {
+        throw 200;
+    }
 }
 
 Handsaw::Handsaw(string id)
@@ -23,10 +27,12 @@ Handsaw::Handsaw(string id)
 }
 
 void Handsaw::use(){
-    if(this->durability-10.0 <= 0)
+    if(this->durability == 0)
+        throw 300;
+    else if(this->durability-10.0 <= 0)
     {
         this->durability = 0;
-        std::cout << "Handsaw broke!" << std::endl;
+        std::cout << "Handsaw is broken!" << std::endl;
     }
     else
         this->durability -= 10.0;
@@ -34,11 +40,11 @@ void Handsaw::use(){
 
 //Setter and Getter for Sharpness
 void Handsaw::setDurability(float durability){
-    if(durability <= 100 && durability > 0){
+    if(durability <= 100.0 && durability > 0){
         this->durability = durability;
     }
     else
-        std::cout << "Error Setting Durability!" << std::endl;
+        throw 200;
 }
 float Handsaw::getDurability(){
     return this->durability;

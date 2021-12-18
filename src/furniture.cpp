@@ -1,10 +1,10 @@
 #include "furniture.hpp"
 
 void Furniture::setPrice(int price){
-    if(price >= 0)
-        this->price = price;
+    if(price < 0) // price negative check
+        throw 100;
     else
-        return;
+        this->price = price;
 }
 
 int Furniture::getPrice(){

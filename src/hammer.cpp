@@ -8,11 +8,15 @@
 
 //Constructor - Input : Durability
 Hammer::Hammer(float durability, string id){
-    if(durability >= 100)
-        this->durability = 100;
-    else
+    if(durability <= 100  && durability > 0)
+    {
         this->durability = durability;
-    this->ID = id;
+        this->ID = id;
+    }
+    else
+    {
+        throw 200;
+    }
 }
 Hammer::Hammer(string id){
     this->durability = 100.0;
@@ -20,22 +24,24 @@ Hammer::Hammer(string id){
 }
 
 void Hammer::use(){
-    if(this->durability-10.0 <= 0)
+    if(this->durability == 0)
+        throw 300;
+    else if(this->durability-10.0 <= 0)
     {
         this->durability = 0;
-        std::cout << "Hammer broke!" << std::endl;
+        std::cout << "Hammer is broken!" << std::endl;
     }
     else
         this->durability -= 10.0;
 }
 
 //Setter and Getter for Durability
-void Hammer::setDurability(float durablity){
-    if(durablity <= 100.0 && durablity > 0){
-        this->durability = durablity;
+void Hammer::setDurability(float durability){
+    if(durability <= 100.0 && durability > 0){
+        this->durability = durability;
     }
     else
-        std::cout << "Error Setting Durability!" << std::endl;
+        throw 200;
 }
 float Hammer::getDurability(){
     return this->durability;

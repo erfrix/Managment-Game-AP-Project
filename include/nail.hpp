@@ -12,6 +12,7 @@ class Nail{
 private:
         typeNail Type;
 public:
+        Nail();
         //Constructor - Inputs : Nail type
         Nail(typeNail type);
         //Setter and Getter for nail type

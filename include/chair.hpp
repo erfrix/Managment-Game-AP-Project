@@ -7,6 +7,7 @@ class Chair : public Furniture
 {
     public:
         //constructors
+        Chair();
         Chair(string);
         Chair(int , string);
 
