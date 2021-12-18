@@ -2,7 +2,7 @@
 
 - [x] Phase 1 - Classes
 - [x] Phase 2 - Inheritance & Polymorphism
-- [ ] Phase 3
+- [x] Phase 3
 - [ ] Phase 4
 
 ## Phase 2
