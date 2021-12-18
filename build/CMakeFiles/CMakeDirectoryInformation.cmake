@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build3-2")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

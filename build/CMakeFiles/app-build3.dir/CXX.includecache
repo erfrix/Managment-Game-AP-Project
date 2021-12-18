@@ -1,0 +1,64 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/app.hpp
+app.hpp
+../include/app.hpp
+
+../include/chair.hpp
+furniture.hpp
+../include/furniture.hpp
+
+../include/furniture.hpp
+iostream
+-
+
+../include/hammer.hpp
+tool.hpp
+../include/tool.hpp
+
+../include/handsaw.hpp
+tool.hpp
+../include/tool.hpp
+
+../include/nail.hpp
+
+../include/tool.hpp
+iostream
+-
+
+../include/woodplank.hpp
+iostream
+-
+string
+-
+
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/main.cpp
+iostream
+-
+string
+-
+vector
+-
+woodplank.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/woodplank.hpp
+tool.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/tool.hpp
+handsaw.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/handsaw.hpp
+hammer.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/hammer.hpp
+nail.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/nail.hpp
+app.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/app.hpp
+furniture.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/furniture.hpp
+chair.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/src/chair.hpp
+

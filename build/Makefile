@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build"
+CMAKE_BINARY_DIR = "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build3-2"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build/CMakeFiles" "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build3-2/CMakeFiles" "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build3-2/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Coding/VS Code/Advanced Programming/Managment Game - Project/build3-2/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named app-build2
+# Target rules for targets named app-build3
 
 # Build rule for target.
-app-build2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 app-build2
-.PHONY : app-build2
+app-build3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 app-build3
+.PHONY : app-build3
 
 # fast build rule for target.
-app-build2/fast:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/build
-.PHONY : app-build2/fast
+app-build3/fast:
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/build
+.PHONY : app-build3/fast
 
 src/app.o: src/app.cpp.o
 
@@ -129,7 +129,7 @@ src/app.o: src/app.cpp.o
 
 # target to build an object file
 src/app.cpp.o:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/app.cpp.o
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/app.cpp.o
 .PHONY : src/app.cpp.o
 
 src/app.i: src/app.cpp.i
@@ -138,7 +138,7 @@ src/app.i: src/app.cpp.i
 
 # target to preprocess a source file
 src/app.cpp.i:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/app.cpp.i
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/app.cpp.i
 .PHONY : src/app.cpp.i
 
 src/app.s: src/app.cpp.s
@@ -147,7 +147,7 @@ src/app.s: src/app.cpp.s
 
 # target to generate assembly for a file
 src/app.cpp.s:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/app.cpp.s
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/app.cpp.s
 .PHONY : src/app.cpp.s
 
 src/chair.o: src/chair.cpp.o
@@ -156,7 +156,7 @@ src/chair.o: src/chair.cpp.o
 
 # target to build an object file
 src/chair.cpp.o:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/chair.cpp.o
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/chair.cpp.o
 .PHONY : src/chair.cpp.o
 
 src/chair.i: src/chair.cpp.i
@@ -165,7 +165,7 @@ src/chair.i: src/chair.cpp.i
 
 # target to preprocess a source file
 src/chair.cpp.i:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/chair.cpp.i
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/chair.cpp.i
 .PHONY : src/chair.cpp.i
 
 src/chair.s: src/chair.cpp.s
@@ -174,7 +174,7 @@ src/chair.s: src/chair.cpp.s
 
 # target to generate assembly for a file
 src/chair.cpp.s:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/chair.cpp.s
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/chair.cpp.s
 .PHONY : src/chair.cpp.s
 
 src/furniture.o: src/furniture.cpp.o
@@ -183,7 +183,7 @@ src/furniture.o: src/furniture.cpp.o
 
 # target to build an object file
 src/furniture.cpp.o:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/furniture.cpp.o
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/furniture.cpp.o
 .PHONY : src/furniture.cpp.o
 
 src/furniture.i: src/furniture.cpp.i
@@ -192,7 +192,7 @@ src/furniture.i: src/furniture.cpp.i
 
 # target to preprocess a source file
 src/furniture.cpp.i:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/furniture.cpp.i
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/furniture.cpp.i
 .PHONY : src/furniture.cpp.i
 
 src/furniture.s: src/furniture.cpp.s
@@ -201,7 +201,7 @@ src/furniture.s: src/furniture.cpp.s
 
 # target to generate assembly for a file
 src/furniture.cpp.s:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/furniture.cpp.s
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/furniture.cpp.s
 .PHONY : src/furniture.cpp.s
 
 src/hammer.o: src/hammer.cpp.o
@@ -210,7 +210,7 @@ src/hammer.o: src/hammer.cpp.o
 
 # target to build an object file
 src/hammer.cpp.o:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/hammer.cpp.o
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/hammer.cpp.o
 .PHONY : src/hammer.cpp.o
 
 src/hammer.i: src/hammer.cpp.i
@@ -219,7 +219,7 @@ src/hammer.i: src/hammer.cpp.i
 
 # target to preprocess a source file
 src/hammer.cpp.i:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/hammer.cpp.i
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/hammer.cpp.i
 .PHONY : src/hammer.cpp.i
 
 src/hammer.s: src/hammer.cpp.s
@@ -228,7 +228,7 @@ src/hammer.s: src/hammer.cpp.s
 
 # target to generate assembly for a file
 src/hammer.cpp.s:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/hammer.cpp.s
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/hammer.cpp.s
 .PHONY : src/hammer.cpp.s
 
 src/handsaw.o: src/handsaw.cpp.o
@@ -237,7 +237,7 @@ src/handsaw.o: src/handsaw.cpp.o
 
 # target to build an object file
 src/handsaw.cpp.o:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/handsaw.cpp.o
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/handsaw.cpp.o
 .PHONY : src/handsaw.cpp.o
 
 src/handsaw.i: src/handsaw.cpp.i
@@ -246,7 +246,7 @@ src/handsaw.i: src/handsaw.cpp.i
 
 # target to preprocess a source file
 src/handsaw.cpp.i:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/handsaw.cpp.i
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/handsaw.cpp.i
 .PHONY : src/handsaw.cpp.i
 
 src/handsaw.s: src/handsaw.cpp.s
@@ -255,7 +255,7 @@ src/handsaw.s: src/handsaw.cpp.s
 
 # target to generate assembly for a file
 src/handsaw.cpp.s:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/handsaw.cpp.s
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/handsaw.cpp.s
 .PHONY : src/handsaw.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -264,7 +264,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -273,7 +273,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -282,7 +282,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/nail.o: src/nail.cpp.o
@@ -291,7 +291,7 @@ src/nail.o: src/nail.cpp.o
 
 # target to build an object file
 src/nail.cpp.o:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/nail.cpp.o
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/nail.cpp.o
 .PHONY : src/nail.cpp.o
 
 src/nail.i: src/nail.cpp.i
@@ -300,7 +300,7 @@ src/nail.i: src/nail.cpp.i
 
 # target to preprocess a source file
 src/nail.cpp.i:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/nail.cpp.i
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/nail.cpp.i
 .PHONY : src/nail.cpp.i
 
 src/nail.s: src/nail.cpp.s
@@ -309,7 +309,7 @@ src/nail.s: src/nail.cpp.s
 
 # target to generate assembly for a file
 src/nail.cpp.s:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/nail.cpp.s
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/nail.cpp.s
 .PHONY : src/nail.cpp.s
 
 src/tool.o: src/tool.cpp.o
@@ -318,7 +318,7 @@ src/tool.o: src/tool.cpp.o
 
 # target to build an object file
 src/tool.cpp.o:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/tool.cpp.o
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/tool.cpp.o
 .PHONY : src/tool.cpp.o
 
 src/tool.i: src/tool.cpp.i
@@ -327,7 +327,7 @@ src/tool.i: src/tool.cpp.i
 
 # target to preprocess a source file
 src/tool.cpp.i:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/tool.cpp.i
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/tool.cpp.i
 .PHONY : src/tool.cpp.i
 
 src/tool.s: src/tool.cpp.s
@@ -336,7 +336,7 @@ src/tool.s: src/tool.cpp.s
 
 # target to generate assembly for a file
 src/tool.cpp.s:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/tool.cpp.s
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/tool.cpp.s
 .PHONY : src/tool.cpp.s
 
 src/woodplank.o: src/woodplank.cpp.o
@@ -345,7 +345,7 @@ src/woodplank.o: src/woodplank.cpp.o
 
 # target to build an object file
 src/woodplank.cpp.o:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/woodplank.cpp.o
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/woodplank.cpp.o
 .PHONY : src/woodplank.cpp.o
 
 src/woodplank.i: src/woodplank.cpp.i
@@ -354,7 +354,7 @@ src/woodplank.i: src/woodplank.cpp.i
 
 # target to preprocess a source file
 src/woodplank.cpp.i:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/woodplank.cpp.i
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/woodplank.cpp.i
 .PHONY : src/woodplank.cpp.i
 
 src/woodplank.s: src/woodplank.cpp.s
@@ -363,7 +363,7 @@ src/woodplank.s: src/woodplank.cpp.s
 
 # target to generate assembly for a file
 src/woodplank.cpp.s:
-	$(MAKE) -f CMakeFiles/app-build2.dir/build.make CMakeFiles/app-build2.dir/src/woodplank.cpp.s
+	$(MAKE) -f CMakeFiles/app-build3.dir/build.make CMakeFiles/app-build3.dir/src/woodplank.cpp.s
 .PHONY : src/woodplank.cpp.s
 
 # Help Target
@@ -374,7 +374,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... app-build2"
+	@echo "... app-build3"
 	@echo "... src/app.o"
 	@echo "... src/app.i"
 	@echo "... src/app.s"
